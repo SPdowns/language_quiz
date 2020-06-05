@@ -5,3 +5,7 @@
 #csharp {
   display: none;
 }
+
+img {
+  max-width: 180px;
+}

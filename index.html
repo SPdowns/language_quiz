@@ -10,6 +10,46 @@
     <title></title>
   </head>
     <body>
-      
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Programming Language Picker</h1>
+        </div>
+        <form id="quiz">
+          <div class="form-group">
+            <label for="color">What's your favorite color:</label> 
+            <div class="radio">
+              <label>
+                <input type="radio" name="color" value="blue" checked>
+                Blue
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="color" value="red">
+                Red
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="color" value="yellow">
+                Yellow
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="color" value="other">
+                Other
+              </label>
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+        <div id="output">
+          <p>This is where the output goes <span id="outputText"></span></p>
+        </div>
+        <div id="ruby">
+          <img src="img/Ruby_logo.svg" alt="ruby_logo">
+        </div>
+      </div>
     </body>
   </html>

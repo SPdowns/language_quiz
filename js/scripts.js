@@ -12,20 +12,26 @@ $(document).ready(function() {
     if (favColor === 'yellow' && favMovie === 'hackers' && favBrand === 'nike' && favMusic === 'dark-ambient' || favColor === 'yellow') {
       hideResult(selection)
       $("#cobol").removeClass("hidden");
+      $("#output").fadeIn();
       $("#output").fadeTo();
       selection = "#cobol"
     } else if (favColor === 'blue' && favMovie === 'sneakers' && favBrand === 'hanes' && favMusic === 'folktronica' || favColor === 'blue') {
       hideResult(selection)
       $("#csharp").removeClass("hidden");
-      $("#output").fade();
+      $("#output").fadeIn();
+      $("#output").fadeTo();
       selection = "#csharp"
-    } else if (favColor === 'other' && favMovie === 'daryl' && favBrand === 'apple' && favMusic === 'new-jack-mumble-swingcore') {
+    } else if (favColor === 'other' && favMovie === 'daryl' && favBrand === 'apple' && favMusic === 'new-jack-mumble-swingcore' || favColor === 'other') {
       hideResult(selection)
       $("#basic").removeClass("hidden");
+      $("#output").fadeIn();
+      $("#output").fadeTo();
       selection = "#basic"
     } else if (favColor === 'red' && favMovie === 'the-net' || favColor === 'red') {
       hideResult(selection)
       $("#ruby").removeClass("hidden");
+      $("#output").fadeIn();
+      $("#output").fadeTo();
       selection = "#ruby"
     }
     // $("#btn").click(function() {

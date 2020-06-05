@@ -1,5 +1,7 @@
 body {
   background-color: blueviolet;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 
 .container {
@@ -19,6 +21,7 @@ body {
   background-image: linear-gradient(to right bottom, #635ffb, #af54dd, #d453bf, #e75ea4, #ec7091, #f17c84, #f18a7b, #ed9976, #eba66c, #e4b465, #d8c264, #c7d16b);
   border: 4px dotted black;
   border-radius: 12px;
+  text-align: center;
 }
 
 .form-group {

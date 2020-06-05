@@ -18,7 +18,7 @@ $(document).ready(function() {
       hideResult(selection)
       $("#csharp").removeClass("hidden");
       selection = "#csharp"
-    } else if (favColor === 'red' || favColor === 'red' && ) {
+    } else if (favColor === 'red' && favMovie === 'the-net') {
       hideResult(selection)
       $("#ruby").removeClass("hidden");
       selection = "#ruby"

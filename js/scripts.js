@@ -1,6 +1,7 @@
-//users face
 $(document).ready(function() {
   let selection;
+
+  $("#btn")
 
   $("form#quiz").submit(function(event) {
     event.preventDefault();
@@ -29,6 +30,8 @@ $(document).ready(function() {
     }
   });
 });
+
+
 
 let hideResult = function(selection){
   if (selection === undefined){

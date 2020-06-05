@@ -10,20 +10,19 @@ $(document).ready(function() {
     let favBrand = $("input:radio[name=brand]:checked").val();
     let favMusic = $("input:radio[name=music]:checked").val();
 
-    if (favColor === 'yellow' && favMovie === 'hackers' && favBrand === 'nike' && favMusic === 'darkAmbient') {
+    if (favColor === 'yellow' && favMovie === 'hackers' && favBrand === 'nike' && favMusic === 'dark-ambient') {
       hideResult(selection)
       $("#cobol").removeClass("hidden");
       selection = "#cobol"
-    } else if (favColor === 'blue' && favMovie === 'sneakers') {
+    } else if (favColor === 'blue' && favMovie === 'sneakers' && favBrand === 'hanes' && favMusic === 'folktronica') {
       hideResult(selection)
       $("#csharp").removeClass("hidden");
       selection = "#csharp"
-    } else if (favColor === 'red') {
+    } else if (favColor === 'red' || favColor === 'red' && ) {
       hideResult(selection)
       $("#ruby").removeClass("hidden");
       selection = "#ruby"
     }
-console.log(favMovie)
   });
 });
 

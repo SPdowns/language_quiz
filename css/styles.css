@@ -1,11 +1,15 @@
-#ruby {
+/* #ruby {
   display: none;
 }
 
 #csharp {
   display: none;
-}
+} */
 
 img {
   max-width: 180px;
+}
+
+.hidden {
+  display: none;
 }

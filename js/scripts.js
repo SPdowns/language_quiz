@@ -13,16 +13,17 @@ $(document).ready(function() {
       $("#csharp").removeClass("hidden");
       selection = "#csharp"
     } else if (favColor === 'red') {
-      $("#csharp").hide();
-      $("#ruby").show();
+      hideResult(selection)
+      $("#ruby").removeClass("hidden");
+      selection = "#ruby"
     }
 
   });
 });
 
-let hideResult = function(sel){
-  if (sel === undefined){
+let hideResult = function(selection){
+  if (selection === undefined){
       return
   }
-  $(`"${sel}"`).addClass("hidden")
+  $(`${selection}`).addClass("hidden")
 }

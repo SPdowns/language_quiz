@@ -24,7 +24,7 @@ _A website surveying a programmers personality then recommends a language to lea
   
 
 _To view live website, open your browser in chrome or firefox, DO NOT USE IE. 
-In the addressbar - visit https://spdowns.github.io/langauage_quiz/_
+In the addressbar - visit https://spdowns.github.io/language_quiz/_
 
   
 

@@ -8,8 +8,9 @@ $(document).ready(function() {
     let favColor = $("input:radio[name=color]:checked").val();
     let favMovie = $("input:radio[name=movie]:checked").val();
     let favBrand = $("input:radio[name=brand]:checked").val();
+    let favMusic = $("input:radio[name=music]:checked").val();
 
-    if (favColor === 'yellow' && favMovie === 'hackers' && favBrand === 'nike') {
+    if (favColor === 'yellow' && favMovie === 'hackers' && favBrand === 'nike' && favMusic === 'darkAmbient') {
       hideResult(selection)
       $("#cobol").removeClass("hidden");
       selection = "#cobol"

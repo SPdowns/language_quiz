@@ -28,6 +28,7 @@ body {
 }
 
 #output {
+  display: none;
   margin: auto;
   width: 20%;
 }

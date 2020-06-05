@@ -1,8 +1,6 @@
 $(document).ready(function() {
   let selection;
 
-  $("#btn")
-
   $("form#quiz").submit(function(event) {
     event.preventDefault();
 
@@ -14,10 +12,12 @@ $(document).ready(function() {
     if (favColor === 'yellow' && favMovie === 'hackers' && favBrand === 'nike' && favMusic === 'dark-ambient' || favColor === 'yellow') {
       hideResult(selection)
       $("#cobol").removeClass("hidden");
+      $("#output").fadeTo();
       selection = "#cobol"
     } else if (favColor === 'blue' && favMovie === 'sneakers' && favBrand === 'hanes' && favMusic === 'folktronica' || favColor === 'blue') {
       hideResult(selection)
       $("#csharp").removeClass("hidden");
+      $("#output").fade();
       selection = "#csharp"
     } else if (favColor === 'other' && favMovie === 'daryl' && favBrand === 'apple' && favMusic === 'new-jack-mumble-swingcore') {
       hideResult(selection)
@@ -28,6 +28,9 @@ $(document).ready(function() {
       $("#ruby").removeClass("hidden");
       selection = "#ruby"
     }
+    // $("#btn").click(function() {
+    //   $("#output").fadeIn();
+    // });
   });
 });
 

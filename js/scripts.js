@@ -8,7 +8,11 @@ $(document).ready(function() {
     let favColor = $("input:radio[name=color]:checked").val();
     let favMovie = $("input:radio[name=movie]:checked").val();
 
-    if (favColor === 'blue' && favMovie === 'sneakers') {
+    if (favColor === 'yellow' && favMovie === 'hackers') {
+      hideResult(selection)
+      $("#cobol").removeClass("hidden");
+      selection = "#cobol"
+    } else if (favColor === 'blue' && favMovie === 'sneakers') {
       hideResult(selection)
       $("#csharp").removeClass("hidden");
       selection = "#csharp"

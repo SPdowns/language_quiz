@@ -1,7 +1,20 @@
 body {
+  padding: 30px;
   background-image: linear-gradient(to right bottom, #c7d16b, #d8c264, #e4b465, #eba66c, #ed9976, #f18a7b, #f17c84, #ec7091, #e75ea4, #d453bf, #af54dd, #635ffb);
   background-attachment: fixed;
   background-repeat: no-repeat;
+}
+
+.jumbotron {
+  background-image: linear-gradient(to right bottom, #635ffb, #af54dd, #d453bf, #e75ea4, #ec7091, #f17c84, #f18a7b, #ed9976, #eba66c, #e4b465, #d8c264, #c7d16b);
+  border: 4px dotted black;
+  border-radius: 12px;
+}
+
+.form-group {
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 12px;
 }
 
 img {

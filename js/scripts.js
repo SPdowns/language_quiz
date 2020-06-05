@@ -6,9 +6,9 @@ $(document).ready(function() {
     event.preventDefault();
 
     let favColor = $("input:radio[name=color]:checked").val();
+    let favMovie = $("input:radio[name=movie]:checked").val();
 
-
-    if (favColor === 'blue') {
+    if (favColor === 'blue' && favMovie === 'sneakers') {
       hideResult(selection)
       $("#csharp").removeClass("hidden");
       selection = "#csharp"
@@ -17,7 +17,7 @@ $(document).ready(function() {
       $("#ruby").removeClass("hidden");
       selection = "#ruby"
     }
-
+console.log(favMovie)
   });
 });
 

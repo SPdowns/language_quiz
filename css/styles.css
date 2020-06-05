@@ -4,6 +4,10 @@ body {
   font-weight: bold;
 }
 
+p {
+  text-align: center;
+}
+
 .container {
   padding: 30px;
   background-image: linear-gradient(to right bottom, #c7d16b, #d8c264, #e4b465, #eba66c, #ed9976, #f18a7b, #f17c84, #ec7091, #e75ea4, #d453bf, #af54dd, #635ffb);
@@ -36,7 +40,7 @@ body {
 }
 
 img {
-  max-width: 180px;
+  max-height: 180px;
 }
 
 .hidden {

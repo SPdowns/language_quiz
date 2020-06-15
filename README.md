@@ -26,6 +26,18 @@ _A website surveying a programmers personality then recommends a language to lea
 _To view live website, open your browser in chrome or firefox, DO NOT USE IE. 
 In the addressbar - visit https://spdowns.github.io/language_quiz/_
 
+  Open by downloading:
+1. Download this repository onto your computer by clicking the 'clone or download button'
+2. Double click index.html to open it in your web browser
+
+Open via Bash/GitBash:
+1. Clone this repository onto your computer:
+`https://github.com/SPdowns/language_quiz`
+2. Navigate into the `language_quiz` directory in Visual Studio Code or preferred text editor
+`code .`
+3. Open index.html in Chrome or preferred browser:
+`open index.html`
+
   
 
 ## Known Bugs
